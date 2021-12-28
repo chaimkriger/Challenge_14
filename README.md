@@ -42,4 +42,43 @@ Below are the results of my second model, which were not really that impressive 
 
 As you can see above, when I tryed to use a different model, my strategy returns turned negative, which is definetly not what my firm is going for. And if the returns were worse than my baseline model, they were definetly worse than my tuned model.
 
-To summarize, I have found that the algorithm works best when programmed with a short-window of 5, a long window of 150, and a training period of 
+To summarize, I have found that the algorithm works best when programmed with a short-window of 5, a long window of 150, and a training period of 8 months. This is with the SVC model.
+
+---  
+
+## Technologies
+
+This project leverages Python 3.7.
+
+---
+
+## Installation Guide
+
+Before running this application, Python must be installed.
+
+---
+
+## Usage
+
+Simply run the code to view the different models I have created. You can change any of the models to your preference, to see if you can get a higher accuracy score.
+
+---
+
+## Contributors
+
+Just me, and a little bit of help from module 14
+
+## License
+
+No license, feel free to copy the code any time.
+
+
+
+
+
+
+
+
+
+
+
