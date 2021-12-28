@@ -35,3 +35,11 @@ To find the optimal parameters to use for my model, I created a function to run 
 As you can see, I've clearly found parameters that will greatly boost my algorithm's efficiency. I'm sure my firm will love the fine tuning that I have done for the algorithm.
 
 My next step is to evaluate a new machine learning classifier. I will use the original parameters that was provided, but I will be applying them to the performance of a second machine learning model. I import LogisticRegression as my second model. Using the original training data as the baseline model, I fit another model with the new classifier. 
+Below are the results of my second model, which were not really that impressive to say the least:
+
+![screenshot of LOGREG returns](https://raw.githubusercontent.com/chaimkriger/Challenge_14/main/LOGREG%20returns%20original.png)
+![screenshot of LOGREG report](https://raw.githubusercontent.com/chaimkriger/Challenge_14/main/LGR%20Testing%20report%20(2).png)
+
+As you can see above, when I tryed to use a different model, my strategy returns turned negative, which is definetly not what my firm is going for. And if the returns were worse than my baseline model, they were definetly worse than my tuned model.
+
+To summarize, I have found that the algorithm works best when programmed with a short-window of 5, a long window of 150, and a training period of 
